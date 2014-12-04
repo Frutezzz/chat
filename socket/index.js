@@ -88,7 +88,7 @@ module.exports = function(server) {
     });
 
   });
- /*
+
   io.sockets.on('session:reload', function(sid) {
     var clients = io.sockets.clients();
 
@@ -131,6 +131,6 @@ module.exports = function(server) {
     });
 
   });
-*/
+
   return io;
 };
